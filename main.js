@@ -550,7 +550,7 @@ if(!document.getElementById("rules_div"))
 rdiv=document.createElement("div");
 rule_p=document.createElement("p");
 rule_p.setAttribute("id","rule_p");
-rule_p.innerHTML="RULES:<br/><br/>1.Two cards are dealt face down to each player and dealer. The player may examine his own cards. The dealer will also deal three communinity cards (called the flop) in the center of the table. <br/>  <br/>2. Each player must decide to either fold or call. If the player folds he gives up his cards and his ante bet. If the player calls, the call must be equal to two times the ante bet.<br/><br/>  3.  The dealer will then deal two more community cards, for a total of five. The dealer will also turn over his own two cards.<br/><br/>4.The player hand shall be scored according the highest poker value of the player's two cards and the five community cards. Likewise, the dealer shall use his own two cards and the five community cards.<br/>";
+rule_p.innerHTML="RULES:<br/><br/>1.Two cards are dealt face down to each player and dealer. The player may examine his own cards. The dealer will also deal three communinity cards (called the flop) in the center of the table. <br/>  <br/>2. Each player must decide to either fold or call. If the player folds he gives up his cards and his bet. If the player calls, the call must be equal to two times the previous bet.<br/><br/>  3.  The dealer will then deal two more community cards, for a total of five. The dealer will also turn over his own two cards.<br/><br/>4.The player hand shall be scored according the highest poker value of the player's two cards and the five community cards. Likewise, the dealer shall use his own two cards and the five community cards.<br/>";
 
 rdiv.appendChild(rule_p);
 rdiv.setAttribute("id","rules_div");
@@ -561,7 +561,7 @@ document.getElementById("rule_p").style.fontSize=18+"px";
 
 rule_p=document.createElement("p");
 rule_p.setAttribute("id","rule_p1");
-rule_p.innerHTML="RULES:<br/><br/>5.The dealer must have a pair of fours or better to qualify. If the dealer does not qualify then the ante will pay according to the ante pay table below and the call bet will push.<br/><br/>6.If the dealer qualifies and beats the player then the player will lose both the ante and call.<br/><br/>7.  If the dealer qualifies and the player beats the dealer then the ante will pay according to the Ante pay table below and the call bet will pay 1 to 1.<br/><br/>8.If the dealer qualifies and the player ties the dealer then both ante and call bets will push.";
+rule_p.innerHTML="RULES:<br/><br/>5.The dealer must have a pair of fours or better to qualify. If the dealer does not qualify and the player wins then, the player is paid accordling.<br/><br/>6.If the dealer qualifies and beats the player then the player will lose his entire bet.<br/><br/>7.  If the dealer qualifies and the player beats the dealer then the played will paid accordling.<br/><br/>";
 
 rdiv.appendChild(rule_p);
 rdiv.setAttribute("id","rules_div");
